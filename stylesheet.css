@@ -1,0 +1,71 @@
+h1 {
+	color:Blue;
+	text-align: center;
+	font-family: Bangers;
+	font-size: 550%;
+}
+
+p {
+	color:red;
+	text-align: left;
+	font-family:veranda;
+	font-size: 30px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: blue;
+    border: 1px solid red;
+	font-family:"Bangers";
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 24px 30px;
+    text-decoration: none;
+}
+ 
+.nav{
+	 display:inline block;
+}
+	 
+li {
+    text-align: center;
+    border-bottom: 24px solid white;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #000;
+    color: Red;
+}
+
+@font-face{
+	font-family:"Bangers";
+	src:url("Bangers-Regular.ttf");
+}
+
+body{
+   background-color: #000;
+   cursor: url('ryan/cursor.png'), default;
+}
+
+.transcript {
+	height:320px;
+	width:800px;
+	border:1px solid;
+	overflow:auto;
+	margin:balaned;
+}
+
