@@ -8,7 +8,7 @@ h1 {
 p {
 	color:red;
 	text-align: left;
-	font-family:veranda;
+	font-family:Bangers;
 	font-size: 30px;
 }
 ul {
@@ -58,14 +58,58 @@ li a:hover:not(.active) {
 
 body{
    background-color: #000;
-   cursor: url('ryan/cursor.png'), default;
+   cursor: url('http://ani.cursors-4u.net/comics/mic-1/mic14.cur'), auto;
 }
 
-.transcript {
-	height:320px;
-	width:800px;
-	border:1px solid;
-	overflow:auto;
-	margin:balaned;
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1vh;
+	border: 1px black solid;
+}	
+.headerbody {
+	background-color: #EAEAEA;
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 2;
 }
+.leftsidebar {
+	background-color: #EAEAEA;
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 2;
+	text-align: justify;
+}
+.grid-item-a{
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 1;
+}
+.grid-item-b {
+	padding: 1em;
+	grid-column-start: 2;
+	grid-column-end: span 1;
+}
+
+.footerbody {
+	background-color: #EAEAEA;
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 2;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.item1 {
+  grid-column: 1 / 3;
+}
+
 
